@@ -1,1 +1,0 @@
-SECRET_KEY = 'django-insecure-e-erft+ue8t$0=2%qisxh=5_pvwmb+wk8*bg-0tgcmaq3h9mt-'
