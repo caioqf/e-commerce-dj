@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/startbootstrap-shop-homepage" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/startbootstrap-shop-item" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/templates/startbootstrap-shop-homepage" vcs="Git" />
   </component>
 </project>

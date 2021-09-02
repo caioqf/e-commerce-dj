@@ -62,7 +62,7 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="{{ produto.imagem_produto.url }}" alt="..."/>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -70,6 +70,7 @@
                                     <b>{{ produto.nome }}</b>
                                     <h5 class="fw-bolder"></h5>
                                     R$ {{ produto.preco }}
+                                    <br><span style="font-size: 11px;">À vista no PIX ou boleto</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -84,7 +85,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+            <div class="container"><p class="m-0 text-center text-white">CaioF &copy; DJ Store 2021</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>

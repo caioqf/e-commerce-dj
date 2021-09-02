@@ -15,7 +15,8 @@ class Produto(models.Model):
     modelo = models.CharField(max_length=255)
     categoria = models.ForeignKey(Categoria, on_delete=models.DO_NOTHING)
     preco = models.FloatField(max_length=255)
-    avaliacao = models.IntegerField()
+    imagem_produto = models.ImageField(upload_to=None, height_field=None, width_field=None, default='didi.jpg')
+
 
     def __str__(self):
         return self.nome
